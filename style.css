@@ -6,22 +6,22 @@
 
 :root {
   --text_color: white;
-  --background: url(./imgsite/bg-desktop.jpg);
+  --background: url(imagens/bg-desktop.jpg);
   --stroke-color: rgba(255, 255, 255, 0.5);
   --surface-color: rgba(225, 225, 225, 0.1);
   --surface-color-hover: rgba(225, 225, 225, 0.05);
   --highlight-color: rgba(225, 225, 225, 0.2);
-  --switch-bg-url: url(./imgsite/moon-stars.svg);
+  --switch-bg-url: url(imagens/moon-stars.svg);
 }
 
 .light {
   --text_color: black;
-  --background: url(./imgsite/bg-desktop-light.jpg);
+  --background: url(imagens/bg-desktop-light.jpg);
   --stroke-color: rgba(0, 0, 0, 0.5);
   --surface-color: rgba(0, 0, 0, 0.05);
   --surface-color-hover: rgba(0,0,0, 0.02);
   --highlight-color:rgba(0,0,0, 0.1);
-  --switch-bg-url: url(./imgsite/sun.svg);
+  --switch-bg-url: url(imagens/sun.svg);
 }
 
 body {

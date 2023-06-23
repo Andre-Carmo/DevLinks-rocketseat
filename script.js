@@ -10,12 +10,10 @@ function togglemode() {
   
   // const img = document.querySelector("#img")
   if (html.classList.contains('light')) {
-    // img.setAttribute("src","./imgsite/avatar-light.png")
-    document.getElementById("img").src = "./imgsite/avatar-light.png"
+    img.setAttribute("src","imagens/avatar.png")
     
   }
   else {
-    // img.setAttribute("src","./imgsite/avatar.png")
-    document.getElementById("img").src = "./imgsite/avatar.png"
+    img.setAttribute("src","imagens/avatar-light.png")
   }
 }
